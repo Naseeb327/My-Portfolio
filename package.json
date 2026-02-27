@@ -1,13 +1,15 @@
 {
-  "name": "https://github.com/Naseeb327/My-Portfolio.git",
+  "name": "my-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://naseeb327.github.io/My-Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
